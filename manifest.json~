@@ -1,0 +1,30 @@
+{
+    "name": "Chrome Bookmark Shortcuts",
+    "description": "CTRL + Number shortcuts for Google Chrome bookmarks",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "permissions": ["storage", "input", "activeTab", "scripting", "bookmarks", "tabs"],
+    "commands": {
+        "bookmark1": {
+            "suggested_key": "Ctrl+Shift+1",
+            "description": "loads first bookmark"
+        },
+        "bookmark2": {
+            "suggested_key": "Ctrl+Shift+2",
+            "description": "loads second bookmark"
+        },
+        "bookmark3": {
+            "suggested_key": "Ctrl+Shift+3",
+            "description": "loads third bookmark"
+        },
+        "bookmark4": {
+            "suggested_key": "Ctrl+Shift+4",
+            "description": "loads fourth bookmark"
+        }
+    }
+    
+}
